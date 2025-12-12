@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220">
+  <style>
+    .brand-main {
+      font-family: "Georgia", "Times New Roman", serif;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      fill: #074a46; /* dark teal */
+    }
+    .brand-sub {
+      font-family: "Georgia", "Times New Roman", serif;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      fill: #2a9fb0; /* light teal */
+    }
+    .dna-line {
+      stroke: #2a9fb0;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+    }
+    .dna-dot-dark {
+      fill: #074a46;
+    }
+    .dna-dot-light {
+      fill: #2a9fb0;
+    }
+  </style>
+
+  <!-- Main text -->
+  <text x="20" y="95" font-size="96" class="brand-main">
+    Celacto
+  </text>
+
+  <!-- DNA motif -->
+  <g transform="translate(70, 110) scale(1)">
+    <!-- vertical connector lines -->
+    <line x1="0"   y1="10" y2="40" x2="0"   class="dna-line"/>
+    <line x1="30"  y1="18" y2="52" x2="30"  class="dna-line"/>
+    <line x1="60"  y1="5"  y2="45" x2="60"  class="dna-line"/>
+    <line x1="90"  y1="15" y2="50" x2="90"  class="dna-line"/>
+    <line x1="120" y1="8"  y2="42" x2="120" class="dna-line"/>
+    <line x1="150" y1="18" y2="52" x2="150" class="dna-line"/>
+    <line x1="180" y1="5"  y2="45" x2="180" class="dna-line"/>
+    <line x1="210" y1="15" y2="50" x2="210" class="dna-line"/>
+    <line x1="240" y1="8"  y2="42" x2="240" class="dna-line"/>
+
+    <!-- dots on the "double helix" -->
+    <!-- top row -->
+    <circle cx="0"   cy="10" r="4.5" class="dna-dot-dark"/>
+    <circle cx="30"  cy="18" r="4"   class="dna-dot-light"/>
+    <circle cx="60"  cy="5"  r="5"   class="dna-dot-dark"/>
+    <circle cx="90"  cy="15" r="4"   class="dna-dot-light"/>
+    <circle cx="120" cy="8"  r="4.5" class="dna-dot-dark"/>
+    <circle cx="150" cy="18" r="4"   class="dna-dot-light"/>
+    <circle cx="180" cy="5"  r="5"   class="dna-dot-dark"/>
+    <circle cx="210" cy="15" r="4"   class="dna-dot-light"/>
+    <circle cx="240" cy="8"  r="4.5" class="dna-dot-dark"/>
+
+    <!-- bottom row -->
+    <circle cx="10"  cy="40" r="4"   class="dna-dot-light"/>
+    <circle cx="40"  cy="52" r="5"   class="dna-dot-dark"/>
+    <circle cx="70"  cy="45" r="4"   class="dna-dot-light"/>
+    <circle cx="100" cy="50" r="5"   class="dna-dot-dark"/>
+    <circle cx="130" cy="42" r="4"   class="dna-dot-light"/>
+    <circle cx="160" cy="52" r="5"   class="dna-dot-dark"/>
+    <circle cx="190" cy="45" r="4"   class="dna-dot-light"/>
+    <circle cx="220" cy="50" r="5"   class="dna-dot-dark"/>
+  </g>
+
+  <!-- Sub text -->
+  <text x="370" y="165" font-size="64" class="brand-sub">
+    Pharma
+  </text>
+</svg>
