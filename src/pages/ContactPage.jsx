@@ -1285,7 +1285,7 @@ const ContactPage = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(/public/images/contact-hero.avif)",
+              "url(/images/contact-hero.avif)",
             filter: "brightness(0.3)",
           }}
         />

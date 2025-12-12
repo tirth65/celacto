@@ -258,7 +258,7 @@ const WarehousingPage = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/public/images/warehouse-hero.jpg"
+            src="/images/warehouse-hero.jpg"
             alt="Pharmaceutical warehouse"
             className="w-full h-full object-cover"
           />
@@ -372,7 +372,7 @@ const WarehousingPage = () => {
 
             <div className="reveal relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/public/images/warehouse3.png"
+                src="/images/warehouse3.png"
                 alt="Modern pharmaceutical warehouse"
                 className="w-[1000px] h-[450px]"
               />
@@ -463,7 +463,7 @@ const WarehousingPage = () => {
 
             <div className="reveal relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/public/images/warehouse2.jpg"
+                src="/images/warehouse2.jpg"
                 alt="Distribution network"
                 className="w-full h-[500px] object-cover rounded-xl"
               />
@@ -489,7 +489,7 @@ const WarehousingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="reveal relative rounded-2xl overflow-hidden shadow-2xl order-2 lg:order-1">
               <img
-                src="/public/images/warehouse5.jpg"
+                src="/images/warehouse5.jpg"
                 alt="Cold chain storage"
                 className="w-full h-auto"
               />
@@ -629,7 +629,7 @@ const WarehousingPage = () => {
             <div className="reveal relative" style={{ animationDelay: '0.2s' }}>
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/public/images/warehouse6.jpg" 
+                  src="/images/warehouse6.jpg" 
                   alt="Global business partnership"
                   className="w-[600px] h-[650px] object-cover"
                 />

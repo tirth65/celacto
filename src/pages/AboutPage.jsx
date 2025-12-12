@@ -787,7 +787,7 @@ const AboutPage = () => {
               className="about-reveal relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <img
-                src="/public/images/about1.jpg" 
+                src="/images/about1.jpg" 
                 alt="Pharmaceutical care"
                 className="w-[600px] h-[450px] rounded-2xl"
               />

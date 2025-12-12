@@ -1184,7 +1184,7 @@ header nav > a[href="/"] {
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden min-h-[700px]">
         <div className="absolute inset-0">
           <img 
-            src="/public/images/global-hero.jpg" 
+            src="/images/global-hero.jpg" 
             alt="Pharmaceutical distribution"
             className="w-full h-full object-cover"
           />
@@ -1312,7 +1312,7 @@ header nav > a[href="/"] {
       <section id="guarantees" className="py-20 relative overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/public/images/global1.jpg" 
+            src="/images/global1.jpg" 
             alt="Quality assurance"
             className="w-full h-full object-cover"
           />
@@ -1475,7 +1475,7 @@ header nav > a[href="/"] {
             <div className="animate-on-scroll relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                src="/public/images/global2.jpg"
+                src="/images/global2.jpg"
                 alt="Scientist in pharmaceutical laboratory"
                 className="w-[600px] h-[600px] object-cover rounded-xl"
                 />
