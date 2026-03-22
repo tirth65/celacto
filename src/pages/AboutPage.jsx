@@ -89,12 +89,12 @@
 //           right: 0 !important;
 //           z-index: 50 !important;
 //         }
-        
+
 //         @keyframes float {
 //           0%, 100% { transform: translateY(0px); }
 //           50% { transform: translateY(-20px); }
 //         }
-        
+
 //         @keyframes pulse-subtle {
 //           0%, 100% { opacity: 0.3; }
 //           50% { opacity: 0.5; }
@@ -207,7 +207,7 @@
 //             Delivering reliable access to medications with trust, transparency, and a personal touch.
 //           </p>
 //         </div>
-        
+
 //         <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-[#769582] via-[#F3EFE3] to-[#769582]"></div>
 //       </section>
 
@@ -258,9 +258,9 @@
 //               <p className="text-xl md:text-2xl font-light text-[#769582] leading-relaxed">
 //                 At CELACTO PHARMA LLC, our purpose is to ensure patients across the United States have reliable access to the medications they need—delivered with trust, transparency, and a personal touch. With over 15 years of continuous service through our sister pharmacy in Gastonia, NC, we have supported patients, caregivers, and healthcare providers with compassionate, dependable pharmaceutical care.
 //               </p>
-              
+
 //               <div className="w-24 h-1 bg-[#769582] my-8"></div>
-              
+
 //               <p>
 //                 While we are a nationally licensed independent drug wholesaler, our foundation is built on strong pharmacy values. Every prescription we handle, every shipment we prepare, and every relationship we build is guided by one core belief: patients come first.
 //               </p>
@@ -359,7 +359,7 @@
 //           <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-[#769582]/10 to-blue-500/5 rounded-full blur-3xl animate-pulse"></div>
 //           <div className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-br from-[#769382]/15 to-purple-500/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
 //           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-emerald-500/5 to-cyan-500/5 rounded-full blur-3xl"></div>
-          
+
 //           {/* Decorative dots pattern */}
 //           <div className="absolute top-10 left-10 w-2 h-2 bg-[#769582] rounded-full opacity-20"></div>
 //           <div className="absolute top-20 left-32 w-2 h-2 bg-[#769582] rounded-full opacity-20"></div>
@@ -394,7 +394,7 @@
 //               {/* Decorative corner elements */}
 //               <div className="absolute -top-10 -left-10 w-32 h-32 bg-gradient-to-br from-blue-400/20 to-blue-600/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
 //               <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-gradient-to-br from-cyan-400/20 to-blue-600/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-              
+
 //               <div className="relative">
 //                 <div className="flex items-center gap-4 mb-8">
 //                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
@@ -417,7 +417,7 @@
 //               {/* Decorative corner elements */}
 //               <div className="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-emerald-400/20 to-emerald-600/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
 //               <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-gradient-to-br from-green-400/20 to-emerald-600/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-              
+
 //               <div className="relative">
 //                 <div className="flex items-center gap-4 mb-8">
 //                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
@@ -450,7 +450,7 @@
 //               {/* Decorative corner elements */}
 //               <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-gradient-to-br from-purple-400/20 to-purple-600/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
 //               <div className="absolute -top-10 -left-10 w-32 h-32 bg-gradient-to-br from-pink-400/20 to-purple-600/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-              
+
 //               <div className="relative">
 //                 <div className="flex items-center gap-4 mb-8">
 //                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
@@ -540,39 +540,39 @@ import React, { useEffect, useRef, useState } from "react";
 import { Award, CheckCircle, Eye, Heart, Phone, Shield, Target, TrendingUp, Truck, Users, Zap } from "lucide-react";
 
 const stats = [
-  { number: "15+", label: "Years of service", icon: Award },
+  { number: "15+", label: "Years of service to US Healthcare", icon: Award },
   { number: "100+", label: "Healthcare partners", icon: Users },
   { number: "DSCSA", label: "Compliant", icon: Heart },
   { number: "24/7", label: "Support availability", icon: Shield }
 ];
 
 const values = [
-  { icon: Heart, title: "Patients first", description: "Every prescription and shipment is handled with compassion and accountability.", color: "from-green-400 to-emerald-500" },
-  { icon: Shield, title: "Trust & transparency", description: "Clear communication, dependable delivery, and relationships built to last.", color: "from-blue-400 to-cyan-500" },
-  { icon: Truck, title: "Prompt delivery", description: "Fast, efficient logistics protecting product integrity door to door.", color: "from-purple-400 to-pink-500" },
-  { icon: Users, title: "Personalized care", description: "Dedicated account support tailored to pharmacies, providers, and caregivers.", color: "from-orange-400 to-red-500" }
+  { icon: Heart, title: "Patients first", description: "Every order is handled with responsibility, care, and accountability", color: "from-green-400 to-emerald-500" },
+  { icon: Shield, title: "Trust & transparency", description: "Clear communication and long-term relationships built on reliability", color: "from-blue-400 to-cyan-500" },
+  { icon: Truck, title: "Operational Efficiency", description: "Streamlined logistics ensuring timely and accurate fulfillment", color: "from-purple-400 to-pink-500" },
+  { icon: Users, title: "Personalized Support", description: "Dedicated account management tailored to each partner", color: "from-orange-400 to-red-500" }
 ];
 
 const deliverables = [
   { icon: CheckCircle, text: "Direct access to brand, generic, specialty, and OTC medications" },
-  { icon: Zap, text: "Personal account support with proactive, transparent communication" },
-  { icon: TrendingUp, text: "Competitive pricing and flexible payment options" },
-  { icon: Shield, text: "Consistent availability backed by compliant supply chains" },
-  { icon: Truck, text: "Prompt shipping, tracking, and responsive logistics" },
-  { icon: Award, text: "Regulatory compliance and rigorous quality assurance" }
+  { icon: Zap, text: "Dedicated account support with proactive communication " },
+  { icon: TrendingUp, text: "Competitive pricing and flexible business terms " },
+  { icon: Shield, text: "Consistent product availability through compliant sourcing channels " },
+  { icon: Truck, text: "Prompt shipping with full tracking visibility" },
+  { icon: Award, text: "Full compliance with federal and state regulatory requirements " }
 ];
 
 const missionPoints = [
-  "Competitive pricing",
-  "Exceptional customer service",
-  "Reliable access to medications",
-  "Personalized support for thriving healthcare partners"
+  "Competitive and stable pricing",
+  "Reliable access to high-quality medications",
+  "Responsive and professional customer support",
+  "Tailored solutions for pharmacies and healthcare providers"
 ];
 
 const aimPoints = [
-  "Simplify and enhance the medication supply process for pharmacies and providers",
-  "Ensure patients receive medications quickly, safely, and affordably",
-  "Support healthcare businesses with efficient solutions and transparent pricing",
+  "Simplify and strengthen the medication supply process for pharmacies and providers",
+  "Ensure timely, safe, and efficient product delivery",
+  "Support healthcare partners with transparent pricing and dependable service ",
 ];
 
 const AboutPage = () => {
@@ -604,7 +604,7 @@ const AboutPage = () => {
     );
 
     const targets = [
-      logisticsMediaRef.current, 
+      logisticsMediaRef.current,
       logisticsTextRef.current,
       aboutImageRef.current,
       aboutTextRef.current,
@@ -716,8 +716,8 @@ const AboutPage = () => {
       {/* Hero Section - Dark Sage Green with Image */}
       <section className="relative pt-32 pb-24 md:pt-40 md:pb-32 flex items-center justify-center overflow-hidden min-h-[600px]">
         <div className="absolute inset-0">
-          <img 
-            src="/images/about-hero.jpg" 
+          <img
+            src="/images/about-hero.jpg"
             alt="Pharmaceutical background"
             className="w-full h-full object-cover"
           />
@@ -726,25 +726,25 @@ const AboutPage = () => {
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <div className="w-20 h-1 bg-[#F3EFE3] mx-auto mb-8"></div>
-          <h1 
+          <h1
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-[#F3EFE3]"
             style={{
               animation: 'fade-in-up 1s ease',
               lineHeight: '1.2'
             }}
           >
-            Trusted pharmaceutical partner with a pharmacy heart.
+            Trusted Pharmaceutical Partner with a Pharmacy Foundation
           </h1>
-          <p 
+          <p
             className="text-lg md:text-xl lg:text-2xl text-[#F3EFE3]/90 max-w-3xl mx-auto leading-relaxed"
             style={{
               animation: 'fade-in-up 1s ease 0.2s backwards'
             }}
           >
-            Delivering reliable access to medications with trust, transparency, and a personal touch.
+            Delivering reliable access to medications across the United States with trust, transparency, and a pharmacy-driven approach to care.
           </p>
         </div>
-        
+
         <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-[#769582] via-[#F3EFE3] to-[#769582]"></div>
       </section>
 
@@ -782,30 +782,34 @@ const AboutPage = () => {
       <section className="py-24 bg-gradient-to-br from-[#FAF7F0] to-[#F5F1E8]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div 
+            <div
               ref={aboutImageRef}
               className="about-reveal relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <img
-                src="/images/about1.jpg" 
+                src="/images/about1.jpg"
                 alt="Pharmaceutical care"
-                className="w-[600px] h-[450px] rounded-2xl"
+                className="w-[600px] h-[600px] rounded-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#769582]/20 to-transparent"></div>
             </div>
 
-            <div 
+            <div
               ref={aboutTextRef}
               className="about-reveal space-y-8 text-lg leading-relaxed text-gray-700"
             >
+              <h3 className="text-4xl md:text-5xl font-bold text-[#4a5f52] mb-6">Pharmaceutical Care</h3>
               <p className="text-xl md:text-2xl font-light text-[#769582] leading-relaxed">
-                At CELACTO PHARMA LLC, our purpose is to ensure patients across the United States have reliable access to the medications they need—delivered with trust, transparency, and a personal touch. With over 15 years of continuous service through our sister pharmacy in Gastonia, NC, we have supported patients, caregivers, and healthcare providers with compassionate, dependable pharmaceutical care.
+                At CELACTO PHARMA LLC, our purpose is to ensure patients and healthcare providers across the United States have consistent and reliable access to high-quality medications—delivered with integrity, transparency, and a strong commitment to patient care.
               </p>
-              
-              <div className="w-24 h-1 bg-gradient-to-r from-[#769582] to-blue-500 my-8"></div>
-              
               <p>
-                While we are a nationally licensed independent drug wholesaler, our foundation is built on strong pharmacy values. Every prescription we handle, every shipment we prepare, and every relationship we build is guided by one core belief: patients come first.
+                With over 15 years of continuous service through our pharmacy in Gastonia, North Carolina, we bring real-world pharmacy experience into every aspect of our distribution operations. This direct connection to a licensed retail pharmacy strengthens our understanding of patient needs, dispensing practices, and supply reliability.
+              </p>
+
+              <div className="w-24 h-1 bg-gradient-to-r from-[#769582] to-blue-500 my-8"></div>
+
+              <p>
+                As a nationally licensed independent drug wholesaler, our foundation is rooted in pharmacy values. Every order we process, every shipment we handle, and every relationship we build is guided by one core principle: putting patients and providers first.
               </p>
             </div>
           </div>
@@ -815,7 +819,7 @@ const AboutPage = () => {
       {/* Personalized Logistics - Light Mint Green */}
       <section className="py-24 bg-[#C0C3B9] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{backgroundImage: 'radial-gradient(circle, #769582 1px, transparent 1px)', backgroundSize: '30px 30px'}}></div>
+          <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, #769582 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -824,19 +828,46 @@ const AboutPage = () => {
               className="about-reveal space-y-6"
             >
               <h2 className="text-4xl md:text-5xl font-bold text-[#4a5f52] mb-6">
-                Personalized logistics. Pharmacy-level care.
+                Pharmacy-Driven Distribution Approach
               </h2>
+              <h3 className="text-xl md:text-2xl font-light text-[#769582] leading-relaxed mb-6">
+                Personalized logistics. Pharmacy-level care.
+              </h3>
               <div className="space-y-4 text-lg leading-relaxed text-gray-700">
                 <p>
-                  We provide a wide range of brand, generic, and specialty medications, along with essential OTC products and healthcare supplies. Our strong industry partnerships allow us to maintain competitive pricing, consistent availability, and prompt delivery.
+                  We provide a comprehensive range of branded, generic, specialty medications, along with essential OTC products and healthcare supplies. Our established sourcing network and industry relationships allow us to offer:
+                </p>
+
+                <ul className="space-y-3 py-2">
+                  {[
+                    "Competitive and transparent pricing",
+                    "Consistent product availability",
+                    "Reliable and timely delivery across the United States"
+                  ].map((point, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-br from-[#769582] to-[#5a7563] flex items-center justify-center mt-0.5">
+                        <CheckCircle className="w-4 h-4 text-white" />
+                      </div>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="w-24 h-1 bg-gradient-to-r from-[#769582] to-blue-500 my-6"></div>
+
+                <p>
+                  Our team operates with a service mindset—listening carefully, responding quickly, and supporting each partner with tailored solutions that meet their operational needs.
                 </p>
                 <p>
-                  We believe in honesty, collaboration, and long-term relationships. Our team listens, responds quickly, and takes pride in meeting the unique needs of every customer we serve. With CELACTO PHARMA LLC, you're not just receiving medication—you're gaining a dedicated partner in healthcare.
+                  With CELACTO PHARMA LLC, you are not just sourcing products—you are working with a distribution partner backed by pharmacy experience.
                 </p>
+                {/* <p>
+                  We believe in honesty, collaboration, and long-term relationships. Our team listens, responds quickly, and takes pride in meeting the unique needs of every customer we serve. With CELACTO PHARMA LLC, you're not just receiving medication—you're gaining a dedicated partner in healthcare.
+                </p> */}
               </div>
             </div>
 
-            <div 
+            <div
               ref={servicesVideoRef}
               className="about-reveal relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50"
             >
@@ -845,12 +876,12 @@ const AboutPage = () => {
                 loop
                 muted
                 playsInline
-                className="w-full h-auto rounded-2xl"
+                className="w-full h-[550px] lg:h-[600px] object-cover rounded-2xl"
               >
                 <source src="/video/about2.mp4" />
                 Your browser does not support the video tag.
               </video>
-            </div>    
+            </div>
           </div>
         </div>
       </section>
@@ -858,7 +889,7 @@ const AboutPage = () => {
       {/* Core Values - Deep Teal */}
       <section className="py-24 bg-[#769382] relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-0 w-full h-full opacity-10" style={{backgroundImage: 'linear-gradient(45deg, #769582 25%, transparent 25%, transparent 75%, #769582 75%, #769582), linear-gradient(45deg, #769582 25%, transparent 25%, transparent 75%, #769582 75%, #769582)', backgroundSize: '60px 60px', backgroundPosition: '0 0, 30px 30px'}}></div>
+          <div className="absolute top-0 left-0 w-full h-full opacity-10" style={{ backgroundImage: 'linear-gradient(45deg, #769582 25%, transparent 25%, transparent 75%, #769582 75%, #769582), linear-gradient(45deg, #769582 25%, transparent 25%, transparent 75%, #769582 75%, #769582)', backgroundSize: '60px 60px', backgroundPosition: '0 0, 30px 30px' }}></div>
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-16">
@@ -902,9 +933,9 @@ const AboutPage = () => {
       <section className="py-32 bg-white relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-[#769582]/15 to-[#C0C3B9]/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-br from-[#769382]/20 to-[#E8DCC4]/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+          <div className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-br from-[#769382]/20 to-[#E8DCC4]/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[#769582]/8 to-[#C0C3B9]/8 rounded-full blur-3xl"></div>
-          
+
           <div className="absolute top-10 left-10 w-2 h-2 bg-[#769582] rounded-full opacity-30"></div>
           <div className="absolute top-20 left-32 w-2 h-2 bg-[#769582] rounded-full opacity-30"></div>
           <div className="absolute top-40 right-40 w-2 h-2 bg-[#769382] rounded-full opacity-30"></div>
@@ -915,22 +946,22 @@ const AboutPage = () => {
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#769582] via-[#5a7563] to-[#4a6352] bg-clip-text text-transparent mb-6">
-              Our direction
+              Our Direction
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Guiding principles that shape our journey and define our commitment to excellence
+              Guiding principles that define our commitment to excellence
             </p>
             <div className="w-32 h-1 bg-gradient-to-r from-[#769582] via-[#769382] to-[#C0C3B9] mx-auto mt-6 rounded-full"></div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div 
+            <div
               className="direction-card group bg-gradient-to-br from-[#E8DCC4]/30 via-white to-[#FAF7F0]/30 rounded-3xl p-10 shadow-2xl border-2 border-[#769582]/30 backdrop-blur-sm relative overflow-hidden"
               style={{ animation: 'fade-in-up 0.6s ease 0s backwards' }}
             >
               <div className="absolute -top-10 -left-10 w-32 h-32 bg-gradient-to-br from-[#769582]/20 to-[#C0C3B9]/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
               <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-gradient-to-br from-[#C0C3B9]/20 to-[#769582]/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-              
+
               <div className="relative">
                 <div className="flex items-center gap-4 mb-8">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#769582] to-[#5a7563] flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
@@ -940,18 +971,18 @@ const AboutPage = () => {
                 </div>
                 <div className="w-16 h-1 bg-gradient-to-r from-[#769582] to-[#C0C3B9] rounded-full mb-6"></div>
                 <p className="text-gray-700 leading-relaxed text-lg">
-                  To be a trusted, patient-centered pharmaceutical partner across the United States—recognized for transparency, reliability, and access to high-quality medications.
+                  To be a trusted, pharmacy-driven pharmaceutical distribution partner across the United States—recognized for reliability, transparency, and consistent product access.
                 </p>
               </div>
             </div>
 
-            <div 
+            <div
               className="direction-card group bg-gradient-to-br from-[#D4E4DD]/40 via-white to-[#E8DCC4]/30 rounded-3xl p-10 shadow-2xl border-2 border-[#769382]/30 backdrop-blur-sm relative overflow-hidden"
               style={{ animation: 'fade-in-up 0.6s ease 0.15s backwards' }}
             >
               <div className="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-[#769582]/20 to-[#769382]/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
               <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-gradient-to-br from-[#769382]/20 to-[#769582]/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-              
+
               <div className="relative">
                 <div className="flex items-center gap-4 mb-8">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#769582] to-[#5a7563] flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
@@ -961,11 +992,11 @@ const AboutPage = () => {
                 </div>
                 <div className="w-16 h-1 bg-gradient-to-r from-[#769582] to-[#769382] rounded-full mb-6"></div>
                 <p className="text-gray-700 leading-relaxed text-base mb-6">
-                  Build long-lasting relationships by providing:
+                  To build long-term partnerships by delivering:
                 </p>
                 <ul className="space-y-3">
                   {missionPoints.map((point, index) => (
-                    <li key={index} className="flex items-start gap-3 text-gray-700 group-hover:translate-x-1 transition-transform duration-300" style={{transitionDelay: `${index * 50}ms`}}>
+                    <li key={index} className="flex items-start gap-3 text-gray-700 group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: `${index * 50}ms` }}>
                       <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-br from-[#769582] to-[#5a7563] flex items-center justify-center mt-0.5">
                         <CheckCircle className="w-4 h-4 text-white" />
                       </div>
@@ -976,24 +1007,24 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="direction-card group bg-gradient-to-br from-[#F5F1E8]/40 via-white to-[#FAF7F0]/30 rounded-3xl p-10 shadow-2xl border-2 border-[#C0C3B9]/30 backdrop-blur-sm relative overflow-hidden"
               style={{ animation: 'fade-in-up 0.6s ease 0.3s backwards' }}
             >
               <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-gradient-to-br from-[#C0C3B9]/20 to-[#769382]/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
               <div className="absolute -top-10 -left-10 w-32 h-32 bg-gradient-to-br from-[#769382]/20 to-[#C0C3B9]/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-              
+
               <div className="relative">
                 <div className="flex items-center gap-4 mb-8">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#769582] to-[#4a6352] flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
                     <TrendingUp className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-3xl font-bold bg-gradient-to-r from-[#769582] to-[#4a6352] bg-clip-text text-transparent">Aim</h3>
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-[#769582] to-[#4a6352] bg-clip-text text-transparent">Our Focus</h3>
                 </div>
                 <div className="w-16 h-1 bg-gradient-to-r from-[#769582] to-[#C0C3B9] rounded-full mb-6"></div>
                 <ul className="space-y-4">
                   {aimPoints.map((point, index) => (
-                    <li key={index} className="flex items-start gap-4 text-gray-700 group-hover:translate-x-1 transition-transform duration-300" style={{transitionDelay: `${index * 50}ms`}}>
+                    <li key={index} className="flex items-start gap-4 text-gray-700 group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: `${index * 50}ms` }}>
                       <div className="flex-shrink-0 w-8 h-8 rounded-xl bg-gradient-to-br from-[#769582] to-[#5a7563] text-white flex items-center justify-center text-base font-bold shadow-md">
                         {index + 1}
                       </div>
@@ -1017,10 +1048,10 @@ const AboutPage = () => {
               What we deliver
             </h2>
             <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-              Comprehensive pharmaceutical solutions
+              Comprehensive pharmaceutical distribution solutions
             </p>
             <p className="text-lg text-gray-600 mt-2">
-              Designed to keep pharmacies, providers, and patients supported around the clock.
+              Designed to support pharmacies and healthcare providers with consistency and reliability.
             </p>
             <div className="w-24 h-1 bg-gradient-to-r from-[#769582] to-blue-500 mx-auto mt-4"></div>
           </div>
@@ -1045,12 +1076,12 @@ const AboutPage = () => {
           </div>
         </div>
       </section>  {/* CTA Section - Sage Green */}
-    <section className="relative py-32 overflow-hidden bg-[#769582]">
+      <section className="relative py-32 overflow-hidden bg-[#769582]">
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Experience the Celacto difference           </h2>
-           <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed">
-             Partner with a pharmacy-focused team that truly cares about your success and your patients' wellbeing.
+          <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Partner with a pharmacy-backed distribution team committed to supporting your business and ensuring reliable access to medications.
           </p>
           <a
             href="tel:980-888-0080"
@@ -1069,4 +1100,3 @@ export default AboutPage;
 
 
 
-     

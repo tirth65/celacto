@@ -23,20 +23,20 @@ const Home = () => {
   const features = [
     {
       icon: Shield,
-      title: "FDA & GDP Compliant",
-      description: "Full regulatory compliance with 24/7 monitored security systems",
+      title: "Secure Warehousing",
+      description: "Modern storage facilities with controlled access and continuous monitoring systems",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: Thermometer,
-      title: "Cold Chain Excellence",
-      description: "Temperature-controlled storage with continuous digital monitoring",
+      title: "Cold Chain Capabilities",
+      description: "Validated temperature-controlled handling for sensitive pharmaceutical products",
       color: "from-emerald-500 to-teal-500"
     },
     {
       icon: Globe,
-      title: "Global Distribution",
-      description: "Seamless logistics across USA, Europe, India, China and beyond",
+      title: "Nationwide Distribution",
+      description: "Reliable delivery network across the United States with consistent service levels",
       color: "from-purple-500 to-pink-500"
     }
   ];
@@ -44,22 +44,22 @@ const Home = () => {
   const services = [
     {
       icon: Building,
-      title: "Secure Warehousing",
-      description: "Purpose-built pharmaceutical storage with advanced security and temperature control",
+      title: "Storage Space",
+      description: "Pharmaceutical-grade storage with advanced security and environmental controls",
       stats: "24/7 Monitoring",
       gradient: "from-[#769582] to-[#6a8775]"
     },
     {
       icon: Truck,
-      title: "Global Distribution",
-      description: "Nationwide and international shipping with real-time tracking and optimization",
+      title: "Nationwide Distribution",
+      description: "Efficient and timely delivery across the United States with full shipment visibility",
       stats: "Real-time Tracking",
       gradient: "from-blue-600 to-cyan-600"
     },
     {
       icon: Droplet,
-      title: "Cold Chain Logistics",
-      description: "Specialized handling for temperature-sensitive medications with validated packaging",
+      title: "Temperature-Controlled Logistics",
+      description: "Specialized handling and transportation for temperature-sensitive products",
       stats: "2°C–8°C Control",
       gradient: "from-emerald-600 to-teal-600"
     }
@@ -120,10 +120,9 @@ const Home = () => {
             <h1 className="text-5xl font-light tracking-wider text-white sm:text-6xl lg:text-7xl mb-1" style={{ fontFamily: 'serif' }}>
               Hello
             </h1>
+            <h2 className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-primary-100">Reliable Pharmaceutical Distribution Across the United States</h2>
             <p className="mt-4 text-sm text-slate-100 sm:text-base">
-              We partner with pharmaceutical companies, hospitals, and NGOs to
-              remove barriers to treatment and deliver trusted therapies across
-              the globe.
+              We partner with licensed pharmacies, healthcare providers, and      institutions to ensure consistent access to high-quality branded and generic medications through a secure and compliant supply chain.
             </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:justify-start">
               <button
@@ -140,11 +139,11 @@ const Home = () => {
               At a glance
             </p>
             <p className="mt-2 text-sm text-slate-50">
-              Trusted access partner supporting{" "}
+              Your trusted distribution partner for  {" "}
               <span className="font-semibold text-primary-200">
-                global healthcare organizations
+                safe, compliant, and efficient 
               </span>{" "}
-              with tailored, compliant solutions.
+             pharmaceutical supply.
             </p>
             <dl className="mt-5 grid grid-cols-2 gap-4 text-xs text-slate-200 sm:text-sm">
               <div>
@@ -185,13 +184,13 @@ const Home = () => {
                 Our Mission
               </p>
               <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">
-                Removing barriers to life-saving treatments worldwide
+                Ensuring reliable access to essential medicines across the United States
               </h2>
               <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Every day, patients around the world face challenges accessing the medicines they need. CelactoPharma exists to bridge that gap—connecting pharmaceutical companies, healthcare providers, and patients through compliant, efficient access programs.
+                At Celacto Pharma, our mission is to support healthcare providers by delivering safe, authentic, and high-quality pharmaceutical products through a fully compliant distribution network.
               </p>
               <p className="text-sm sm:text-base leading-relaxed text-slate-600">
-                We handle the complex logistics, regulatory navigation, and supply chain management so you can focus on what matters most: improving patient outcomes.
+                We simplify procurement by managing sourcing, storage, and logistics with precision—allowing our partners to focus on patient care while we ensure dependable supply and operational efficiency.
               </p>
               <div className="flex flex-wrap gap-3 pt-2">
                 <div className="rounded-full bg-emerald-100 px-4 py-2 text-xs font-semibold text-emerald-700">
@@ -249,10 +248,10 @@ const Home = () => {
               Why Choose Us
             </p>
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900 mb-4">
-              A partner built for the complexities of global medicine access
+              A distribution partner built on compliance, reliability, and trust.
             </h2>
             <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
-              Specialized expertise in pharmaceutical distribution, regulatory affairs, and supply chain management
+              Adherence to all federal and state regulations with secure, monitored facilities aligned with Drug Supply Chain Security Act requirements
             </p>
           </div>
 
@@ -298,7 +297,7 @@ const Home = () => {
               what we provide
             </p>
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-white mb-4">
-              Comprehensive pharmaceutical solutions
+              Comprehensive pharmaceutical distribution solutions
             </h2>
           </div>
 
@@ -366,10 +365,10 @@ const Home = () => {
                   OUR IMPACT
                 </p>
                 <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900 leading-tight mb-6">
-                  Transforming access challenges into successful outcomes
+                  Delivering consistency, quality, and reliability in             pharmaceutical supply
                 </h2>
                 <p className="text-sm sm:text-base leading-relaxed text-slate-600">
-                  From emergency access requests to large-scale clinical supply programs, we've supported hundreds of organizations in delivering critical medicines to patients who need them most.
+                 We support pharmacies and healthcare providers by ensuring uninterrupted access to essential medications through a dependable and compliant distribution network.
                 </p>
               </div>
               
@@ -380,7 +379,7 @@ const Home = () => {
                   </div>
                   <div>
                     <p className="text-base font-semibold text-slate-900 mb-1">End-to-end visibility</p>
-                    <p className="text-sm text-slate-600 leading-relaxed">Real-time tracking from source to patient with complete transparency</p>
+                    <p className="text-sm text-slate-600 leading-relaxed">Full transparency across procurement, storage, and delivery</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4 group">
@@ -389,7 +388,7 @@ const Home = () => {
                   </div>
                   <div>
                     <p className="text-base font-semibold text-slate-900 mb-1">Quality assurance</p>
-                    <p className="text-sm text-slate-600 leading-relaxed">GDP-compliant storage and handling protocols at every step</p>
+                    <p className="text-sm text-slate-600 leading-relaxed">Strict handling and storage protocols to maintain product integrity</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4 group">
@@ -398,7 +397,7 @@ const Home = () => {
                   </div>
                   <div>
                     <p className="text-base font-semibold text-slate-900 mb-1">Responsive support</p>
-                    <p className="text-sm text-slate-600 leading-relaxed">Dedicated team available 24/7 when you need them most</p>
+                    <p className="text-sm text-slate-600 leading-relaxed">Dedicated team ensuring smooth coordination and timely updates</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4 group">
@@ -406,8 +405,8 @@ const Home = () => {
                     <Award className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <p className="text-base font-semibold text-slate-900 mb-1">Regulatory expertise</p>
-                    <p className="text-sm text-slate-600 leading-relaxed">Expert navigation of complex international requirements</p>
+                    <p className="text-base font-semibold text-slate-900 mb-1">Operational Excellence</p>
+                    <p className="text-sm text-slate-600 leading-relaxed">Efficient processes designed for accuracy, speed, and reliability</p>
                   </div>
                 </li>
               </ul>
@@ -428,15 +427,15 @@ const Home = () => {
           <div className="inline-block mb-8">
             <div className="flex items-center gap-3 px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20">
               <Heart className="w-5 h-5 text-white" />
-              <span className="text-white font-semibold text-sm">Trusted by so many pharmaceutical companies across the globe</span>
+              <span className="text-white font-semibold text-sm">Trusted by healthcare providers across the United States</span>
             </div>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready to transform your pharmaceutical logistics?
+        Ready to streamline your pharmaceutical supply?
           </h2>
           <p className="text-lg sm:text-xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Schedule a free consultation and discover how we can support your growth with safety, compliance, and reliability.
+           Connect with our team to learn how Celacto Pharma can support your distribution needs with reliability, compliance, and efficiency.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">

@@ -182,7 +182,7 @@
 // //           <div className="absolute inset-0 bg-gradient-to-br from-[#769582]/95 via-[#5a7a68]/90 to-[#769582]/95"></div>
 // //           <div className="absolute inset-0 opacity-20">
 // //             <div className="absolute inset-0" style={{
-              
+
 // //               backgroundSize: '100px 100px'
 // //             }}></div>
 // //           </div>
@@ -405,7 +405,7 @@
 // //                   </div>
 // //                 </div>
 // //               </div>
-              
+
 // //               <div 
 // //                 className="absolute -top-6 -right-6 bg-white rounded-2xl p-6 shadow-2xl"
 // //                 style={{ animation: 'float 4s ease-in-out infinite' }}
@@ -440,7 +440,7 @@
 // //           <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed">
 // //             Partner with Celacto Pharma for reliable pharmaceutical supply and comparator sourcing backed by 20+ years of expertise.
 // //           </p>
-          
+
 // //           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
 // //             <a
 // //               href="tel:980-888-0080"
@@ -841,7 +841,7 @@
 //                   </div>
 //                 </div>
 //               </div>
-              
+
 //               <div 
 //                 className="absolute -top-6 -right-6 bg-white rounded-2xl p-6 shadow-2xl"
 //                 style={{ animation: 'float 4s ease-in-out infinite' }}
@@ -876,7 +876,7 @@
 //           <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed">
 //             Partner with Celacto Pharma for reliable pharmaceutical supply and comparator sourcing backed by 20+ years of expertise.
 //           </p>
-          
+
 //           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
 //             <a
 //               href="tel:980-888-0080"
@@ -901,64 +901,66 @@
 // export default GlobalDistributionPage;
 
 import React, { useEffect, useState } from "react";
-import { 
-  Globe, Shield, Thermometer, FileCheck, TrendingUp, 
-  CheckCircle, Award, Package, Truck, Clock, Zap, Phone, 
-  ArrowRight, Star, Target
+import {
+  Globe, Shield, Thermometer, FileCheck, TrendingUp,
+  CheckCircle, Award, Package, Truck, Clock, Zap, Phone,
+  ArrowRight, Star, Target, Pill
 } from "lucide-react";
 
 const guarantees = [
   {
     icon: Shield,
-    title: "Verified Sourcing",
-    description: "Direct procurement from licensed suppliers and manufacturers with complete verification",
+    title: "Verified Procurement",
+    description: "Products sourced from licensed manufacturers and authorized distributors with full verification",
     highlight: true
   },
   {
     icon: FileCheck,
-    title: "Full Compliance",
-    description: "GDP guidelines and global regulatory standards strictly followed",
+    title: "Regulatory Compliance",
+    description: "Strict adherence to federal and state regulations, including the Drug Supply Chain Security Act",
     highlight: true
   },
   {
     icon: Truck,
-    title: "Efficient Logistics",
-    description: "Streamlined inbound & outbound logistics for faster delivery",
+    title: "Efficient Distribution",
+    description: "Streamlined order processing and delivery across the United States",
     highlight: true
   },
   {
     icon: Thermometer,
-    title: "Temperature-Controlled",
-    description: "Cold chain management for temperature-sensitive pharmaceuticals",
+    title: "Temperature-Controlled Handling",
+    description: "Validated cold chain processes for temperature-sensitive medications",
     highlight: true
   },
   {
     icon: FileCheck,
     title: "Complete Documentation",
-    description: "COA, COO, Batch Details, and all required certifications",
+    description: "Full transparency with batch details, product information, and required documentation",
     highlight: true
   },
   {
     icon: TrendingUp,
-    title: "Competitive Pricing",
-    description: "Optimized costs with efficient lead times",
+    title: "Competitive & Stable Pricing",
+    description: "Reliable pricing supported by strong supplier relationships",
     highlight: true
   }
 ];
 
 const drugTypes = [
-  { name: "Generics", icon: Package, color: "from-blue-400 to-cyan-500" },
-  { name: "Branded Drugs", icon: Award, color: "from-purple-400 to-pink-500" },
-  { name: "Specialty Drugs", icon: Star, color: "from-orange-400 to-red-500" },
-  { name: "Biologics-Biosimilars", icon: Target, color: "from-green-400 to-emerald-500" }
+  { name: "Generic Medications", icon: Package, color: "from-blue-400 to-cyan-500" },
+  { name: "Branded Medications", icon: Award, color: "from-purple-400 to-pink-500" },
+  { name: "Specialty Pharmaceuticals", icon: Star, color: "from-orange-400 to-red-500" },
+  { name: "Biologics-Biosimilars", icon: Target, color: "from-green-400 to-emerald-500" },
+  { name: "Over-the-Counter (OTC) Products", icon: Pill, color: "from-teal-400 to-cyan-500" }
 ];
 
 const keyFeatures = [
   "20+ years pharmaceutical industry experience",
-  "Ownership of two retail pharmacies",
-  "Licensed wholesale operations",
-  "Full traceability on all products",
-  "USA-based sourcing network"
+  "Ownership and operation of licensed retail pharmacies ",
+  "Licensed wholesale distribution operations",
+  "Full product traceability and documentation ",
+  "Strong US-based sourcing network",
+  "Commitment to quality and regulatory compliance "
 ];
 
 const GlobalDistributionPage = () => {
@@ -989,7 +991,7 @@ const GlobalDistributionPage = () => {
 
   return (
     <div className="min-h-screen bg-[#F3EFE3] font-sans">
-    <style>{`
+      <style>{`
 
     header a[href="/"] * {
   background: transparent !important;
@@ -1183,8 +1185,8 @@ header nav > a[href="/"] {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden min-h-[700px]">
         <div className="absolute inset-0">
-          <img 
-            src="/images/global-hero.jpg" 
+          <img
+            src="/images/global-hero.jpg"
             alt="Pharmaceutical distribution"
             className="w-full h-full object-cover"
           />
@@ -1198,17 +1200,17 @@ header nav > a[href="/"] {
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 pt-24">
           <div className="text-center">
-            <div 
+            <div
               className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-6 py-3 rounded-full mb-6 border border-white/30"
               style={{ animation: 'fadeInUp 0.8s ease' }}
             >
               <Globe className="w-6 h-6 text-white" />
-              <span className="text-white font-bold text-lg">Global Pharmaceutical Solutions</span>
+              <span className="text-white font-bold text-lg">Pharmaceutical Distribution Services</span>
             </div>
 
-            <h1 
+            <h1
               className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight"
-              style={{ 
+              style={{
                 animation: 'fadeInUp 1s ease 0.2s backwards',
                 textShadow: '0 4px 20px rgba(0,0,0,0.3)'
               }}
@@ -1217,14 +1219,14 @@ header nav > a[href="/"] {
               <span className="text-[#F3EFE3]">Drug Sourcing</span>
             </h1>
 
-            <p 
+            <p
               className="text-xl md:text-2xl text-white/95 max-w-4xl mx-auto mb-8 leading-relaxed"
               style={{ animation: 'fadeInUp 1s ease 0.4s backwards' }}
             >
-              High-quality Generics, Branded, Specialty drugs, and Biologics-Biosimilars sourced directly from the USA with <strong className="text-[#F3EFE3]">full traceability and compliance</strong>
+              We provide licensed pharmacies, healthcare providers, and institutions with consistent access to branded, generic, specialty medications.
             </p>
 
-            <div 
+            <div
               className="flex flex-wrap justify-center gap-4 mb-10"
               style={{ animation: 'fadeInUp 1s ease 0.6s backwards' }}
             >
@@ -1244,14 +1246,14 @@ header nav > a[href="/"] {
               </a>
             </div>
 
-            <div 
+            <div
               className="inline-flex items-center gap-3 bg-[#F3EFE3]/95 backdrop-blur-md px-8 py-4 rounded-2xl shadow-2xl"
               style={{ animation: 'scaleIn 1s ease 0.8s backwards' }}
             >
               <Award className="w-8 h-8 text-[#769582]" />
               <div className="text-left">
                 <p className="text-3xl font-bold text-[#769582]">20+ Years</p>
-                <p className="text-sm text-gray-600 font-semibold">Pharmaceutical Industry Experience</p>
+                <p className="text-sm text-gray-600 font-semibold">Pharmaceutical Industry Expertise</p>
               </div>
             </div>
           </div>
@@ -1268,11 +1270,11 @@ header nav > a[href="/"] {
               What We Supply
             </h2>
             <p className="text-xl text-gray-700">
-              Comprehensive pharmaceutical products for clinical trials and research
+              Comprehensive range of pharmaceutical products
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {drugTypes.map((drug, index) => (
               <div
                 key={index}
@@ -1289,6 +1291,7 @@ header nav > a[href="/"] {
 
           <div className="mt-16 animate-on-scroll">
             <div className="bg-white rounded-3xl p-8 shadow-2xl border-4 border-[#769582]">
+
               <h3 className="text-2xl font-bold text-[#769582] mb-6 text-center">
                 Why Choose Celacto Pharma?
               </h3>
@@ -1311,8 +1314,8 @@ header nav > a[href="/"] {
       {/* What We Guarantee Section with 3D Effects */}
       <section id="guarantees" className="py-20 relative overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src="/images/global1.jpg" 
+          <img
+            src="/images/global1.jpg"
             alt="Quality assurance"
             className="w-full h-full object-cover"
           />
@@ -1332,12 +1335,12 @@ header nav > a[href="/"] {
               <div className="relative">
                 <div className="absolute inset-0 bg-[#769582] blur-xl opacity-40 animate-pulse"></div>
                 <h2 className="relative text-4xl md:text-5xl font-bold text-white">
-                  What We Guarantee
+                  Our Standards
                 </h2>
               </div>
             </div>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              End-to-end support ensuring smooth, compliant clinical trial operations
+              Built on compliance, safety, and operational excellence
             </p>
           </div>
 
@@ -1351,17 +1354,15 @@ header nav > a[href="/"] {
                 onMouseLeave={() => setHoveredIndex(null)}
               >
                 {/* Glow Effect */}
-                <div 
-                  className={`absolute inset-0 bg-gradient-to-r from-[#769582] via-[#5a7a68] to-[#769582] rounded-2xl blur-xl transition-all duration-500 ${
-                    hoveredIndex === index ? 'opacity-75 scale-110' : 'opacity-0 scale-95'
-                  }`}
+                <div
+                  className={`absolute inset-0 bg-gradient-to-r from-[#769582] via-[#5a7a68] to-[#769582] rounded-2xl blur-xl transition-all duration-500 ${hoveredIndex === index ? 'opacity-75 scale-110' : 'opacity-0 scale-95'
+                    }`}
                 ></div>
 
                 {/* Card */}
                 <div
-                  className={`relative guarantee-card-3d bg-white/95 backdrop-blur-lg rounded-2xl p-8 shadow-xl border-2 ${
-                    hoveredIndex === index ? 'border-[#769582]' : 'border-white/50'
-                  }`}
+                  className={`relative guarantee-card-3d bg-white/95 backdrop-blur-lg rounded-2xl p-8 shadow-xl border-2 ${hoveredIndex === index ? 'border-[#769582]' : 'border-white/50'
+                    }`}
                 >
                   {/* Shimmer Effect */}
                   {hoveredIndex === index && (
@@ -1371,25 +1372,22 @@ header nav > a[href="/"] {
                   {/* Content */}
                   <div className="relative z-10">
                     <div className="flex items-start gap-4">
-                      <div 
-                        className={`flex-shrink-0 w-14 h-14 rounded-xl bg-gradient-to-br from-[#769582] to-[#5a7a68] flex items-center justify-center shadow-lg transition-all duration-500 ${
-                          hoveredIndex === index ? 'scale-110 rotate-6' : 'scale-100 rotate-0'
-                        }`}
+                      <div
+                        className={`flex-shrink-0 w-14 h-14 rounded-xl bg-gradient-to-br from-[#769582] to-[#5a7a68] flex items-center justify-center shadow-lg transition-all duration-500 ${hoveredIndex === index ? 'scale-110 rotate-6' : 'scale-100 rotate-0'
+                          }`}
                       >
                         <item.icon className="w-7 h-7 text-white" />
                       </div>
-                      
+
                       <div className="flex-1">
                         <div className="flex items-center justify-between mb-2">
-                          <h3 className={`text-xl font-bold transition-colors duration-300 ${
-                            hoveredIndex === index ? 'text-[#769582]' : 'text-gray-800'
-                          }`}>
+                          <h3 className={`text-xl font-bold transition-colors duration-300 ${hoveredIndex === index ? 'text-[#769582]' : 'text-gray-800'
+                            }`}>
                             {item.title}
                           </h3>
-                          <span 
-                            className={`text-2xl transition-all duration-500 ${
-                              hoveredIndex === index ? 'scale-125 rotate-12' : 'scale-100 rotate-0'
-                            }`}
+                          <span
+                            className={`text-2xl transition-all duration-500 ${hoveredIndex === index ? 'scale-125 rotate-12' : 'scale-100 rotate-0'
+                              }`}
                           >
                             ⭐
                           </span>
@@ -1401,18 +1399,16 @@ header nav > a[href="/"] {
                     </div>
 
                     {/* Animated Progress Bar */}
-                    <div 
-                      className={`mt-6 h-1 bg-gradient-to-r from-[#769582] via-[#5a7a68] to-[#769582] rounded-full transition-all duration-500 ${
-                        hoveredIndex === index ? 'w-full opacity-100' : 'w-0 opacity-0'
-                      }`}
+                    <div
+                      className={`mt-6 h-1 bg-gradient-to-r from-[#769582] via-[#5a7a68] to-[#769582] rounded-full transition-all duration-500 ${hoveredIndex === index ? 'w-full opacity-100' : 'w-0 opacity-0'
+                        }`}
                     ></div>
                   </div>
 
                   {/* Corner Accent */}
-                  <div 
-                    className={`absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-[#769582]/20 to-transparent rounded-tr-2xl transition-all duration-500 ${
-                      hoveredIndex === index ? 'opacity-100 scale-100' : 'opacity-0 scale-50'
-                    }`}
+                  <div
+                    className={`absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-[#769582]/20 to-transparent rounded-tr-2xl transition-all duration-500 ${hoveredIndex === index ? 'opacity-100 scale-100' : 'opacity-0 scale-50'
+                      }`}
                   ></div>
                 </div>
               </div>
@@ -1425,39 +1421,37 @@ header nav > a[href="/"] {
               {guarantees.map((_, i) => (
                 <div
                   key={i}
-                  className={`w-2 h-2 rounded-full transition-all duration-500 ${
-                    hoveredIndex === i 
-                      ? 'bg-white scale-150 w-8' 
+                  className={`w-2 h-2 rounded-full transition-all duration-500 ${hoveredIndex === i
+                      ? 'bg-white scale-150 w-8'
                       : 'bg-white/40 scale-100'
-                  }`}
+                    }`}
                 ></div>
               ))}
             </div>
           </div>
         </div>
-      </section> 
+      </section>
 
       {/* Our Promise Section */}
-      <section  id="cold-chain" className="py-20 bg-[#F3EFE3]">
+      <section id="cold-chain" className="py-20 bg-[#F3EFE3]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll space-y-6">
               <div className="inline-block px-4 py-2 bg-[#769582]/10 rounded-full">
-                <span className="text-[#769582] font-bold">Our Commitment</span>
+                <span className="text-[#769582] font-bold">Our Approach</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#769582] leading-tight">
-                Focus on Innovation,<br />
-                We Handle the Rest
+                Pharmacy-led,<br />
+                Distribution you can trust.
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed">
-                With Celacto Pharma, you can <strong className="text-[#769582]">focus on advancing innovation</strong> while we manage:
-              </p>
+                With Celacto Pharma, you gain a partner that understands real-world pharmacy and provider needs. We manage procurement, storage, and delivery with accuracy and care—ensuring a consistent and dependable supply experience.</p>
               <div className="space-y-4">
                 {[
-                  "Sourcing from verified suppliers",
-                  "Logistics and cold chain management",
-                  "Quality assurance and documentation",
-                  "Global regulatory compliance"
+                  "Reliable product availability",
+                  "Efficient order fulfillment",
+                  "Secure storage and handling",
+                  "Clear communication and support"
                 ].map((item, index) => (
                   <div
                     key={index}
@@ -1475,9 +1469,9 @@ header nav > a[href="/"] {
             <div className="animate-on-scroll relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                src="/images/global2.jpg"
-                alt="Scientist in pharmaceutical laboratory"
-                className="w-[600px] h-[600px] object-cover rounded-xl"
+                  src="/images/global2.jpg"
+                  alt="Scientist in pharmaceutical laboratory"
+                  className="w-[600px] h-[700px] object-cover rounded-xl"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#769582]/80 to-transparent flex items-end p-8">
@@ -1487,8 +1481,8 @@ header nav > a[href="/"] {
                   </div>
                 </div>
               </div>
-              
-              <div 
+
+              <div
                 className="absolute -top-6 -right-6 bg-white rounded-2xl p-6 shadow-2xl"
                 style={{ animation: 'float 4s ease-in-out infinite' }}
               >
@@ -1505,11 +1499,11 @@ header nav > a[href="/"] {
       {/* CTA Section */}
       <section id="contact" className="relative py-24 overflow-hidden bg-gradient-to-br from-[#769582] to-[#5a7a68]">
         <div className="absolute inset-0">
-          <div 
+          <div
             className="absolute top-20 right-20 w-64 h-64 rounded-full bg-white/10"
             style={{ animation: 'pulse 3s ease-in-out infinite' }}
           ></div>
-          <div 
+          <div
             className="absolute bottom-20 left-20 w-48 h-48 rounded-full bg-white/10"
             style={{ animation: 'pulse 4s ease-in-out infinite' }}
           ></div>
@@ -1517,12 +1511,12 @@ header nav > a[href="/"] {
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Ready to Source with Confidence?
+           Your trusted pharmaceutical distribution partner in the United States
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed">
-            Partner with Celacto Pharma for reliable pharmaceutical supply and comparator sourcing backed by 20+ years of expertise.
+            Partner with Celacto Pharma for reliable, compliant, and efficient access to medications—supported by real pharmacy experience and a strong domestic supply network.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="tel:980-888-0080"
