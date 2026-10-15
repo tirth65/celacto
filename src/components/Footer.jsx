@@ -35,8 +35,10 @@ const Footer = () => {
               <div>
                 <p className="font-semibold mb-1 text-slate-900">Our Location</p>
                 <p className="text-slate-600 leading-relaxed">
-                  7101 East Wilkinson Blvd<br />
-                  Suite B, Belmont, NC 28012
+                413, Satyamev Elite, Bopal-Ambli Road,<br />
+                S.P. Ring Road junction, Ahmedabad,<br />
+                Gujarat (PIN 380058)
+                 
                 </p>
               </div>
             </div>
@@ -157,7 +159,7 @@ const Footer = () => {
             <div className="space-y-4">
               {/* Phone */}
               <a
-                href="tel:980-888-0080"
+                href="tel: +91-635-313-6365"
                 className="group flex items-center gap-3 rounded-xl bg-white backdrop-blur-sm px-4 py-3 text-sm transition-all hover:bg-[#769582] hover:text-white hover:scale-105 border-2 border-slate-200 shadow-sm"
               >
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#769582] text-white group-hover:bg-white group-hover:text-[#769582] transition-colors">
@@ -165,13 +167,13 @@ const Footer = () => {
                 </div>
                 <div className="flex-1">
                   <p className="text-xs text-slate-500 group-hover:text-white/80">Call Us</p>
-                  <p className="font-semibold text-slate-900 group-hover:text-white">980-888-0080</p>
+                  <p className="font-semibold text-slate-900 group-hover:text-white">+1 980-283-0411 / +91 635-313-6365</p>
                 </div>
               </a>
 
               {/* Email - FIXED */}
               <a
-                href="mailto:kirti@celactopharma.com"
+                href="mailto:axat@celactopharma.com"
                 className="group flex items-center gap-3 rounded-xl bg-white backdrop-blur-sm px-4 py-3 text-sm transition-all hover:bg-[#769582] hover:text-white hover:scale-105 border-2 border-slate-200 shadow-sm"
               >
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#769582] text-white group-hover:bg-white group-hover:text-[#769582] transition-colors">
@@ -179,7 +181,7 @@ const Footer = () => {
                 </div>
                 <div className="flex-1">
                   <p className="text-xs text-slate-500 group-hover:text-white/80">Email Us</p>
-                  <p className="font-semibold text-slate-900 group-hover:text-white text-xs sm:text-sm">kirti@celactopharma.com</p>
+                  <p className="font-semibold text-slate-900 group-hover:text-white text-xs sm:text-sm">axat@celactopharma.com</p>
                 </div>
               </a>
 

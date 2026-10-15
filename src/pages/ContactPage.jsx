@@ -20,7 +20,7 @@
 //     icon: MapPin,
 //     title: "Visit Us",
 //     items: [
-//       { label: "Head Office", value: "7101 EAST WILKINSONBLVD STE B, BELMONT, North Carolina 28012" },
+//       { label: "413, Satyamev Elite, Bopal-Ambli Road, S.P. Ring Road junction, Ahmedabad, Gujarat (PIN 380058)", value: "" },
      
 //     ]
 //   },
@@ -1056,12 +1056,12 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    items: [{ label: "General Inquiries", value: "kirti@celactopharma.com" }],
+    items: [{ label: "General Inquiries", value: "axat@celactopharma.com" }],
   },
   {
     icon: Phone,
     title: "Call Us",
-    items: [{ label: "For Any Inquiries", value: "980-888-0080" }],
+    items: [{ label: "For Any Inquiries", value: "+1 980-283-0411 / +91 635-313-6365" }],
   },
   {
     icon: MapPin,
@@ -1070,7 +1070,7 @@ const contactInfo = [
       {
         label: "Head Office",
         value:
-          "7101 EAST WILKINSON BLVD STE B, BELMONT, North Carolina 28012",
+          "413, Satyamev Elite, Bopal-Ambli Road, S.P. Ring Road junction, Ahmedabad, Gujarat (PIN 380058)"
       },
     ],
   },
@@ -1532,14 +1532,16 @@ const ContactPage = () => {
             <div className="reveal">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden h-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.8647891234!2d-81.04892!3d35.24363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88542e3e3e3e3e3e%3A0x3e3e3e3e3e3e3e3e!2s7101%20E%20Wilkinson%20Blvd%20Suite%20B%2C%20Belmont%2C%20NC%2028012!5e0!3m2!1sen!2sus!4v1234567890"
+                  src="https://maps.google.com/maps?q=413%2C%20Satyamev%20Elite%2C%20Bopal-Ambli%20Road%2C%20S.P.%20Ring%20Road%20junction%2C%20Ahmedabad%2C%20Gujarat%20380058&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Celacto Pharma Location - 7101 E Wilkinson Blvd Suite B, Belmont, NC 28012"
+                  title="Celacto Pharma Location -  413, Satyamev Elite, Bopal-Ambli Road,
+                S.P. Ring Road junction, Ahmedabad,
+                Gujarat (PIN 380058)"
                 />
               </div>
             </div>
@@ -1580,7 +1582,7 @@ const ContactPage = () => {
 
             {/* Gmail */}
             <a
-              href="mailto:kirti@celactopharma.com"
+              href="mailto:axat@celactopharma.com"
               className="contact-method-card bg-white/95 rounded-2xl p-6 sm:p-8 shadow-xl text-center group"
             >
               <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-[#769582] to-[#6a8775] flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-110 transition-transform">
@@ -1593,7 +1595,7 @@ const ContactPage = () => {
                 Send us an email
               </p>
               <p className="text-xs sm:text-sm text-gray-500 mt-2 break-all">
-                kirti@celactopharma.com
+                axat@celactopharma.com
               </p>
             </a>
 
@@ -1611,7 +1613,7 @@ const ContactPage = () => {
               <p className="text-sm sm:text-base text-gray-600">
                 Speak with our team
               </p>
-              <p className="text-xs sm:text-sm text-gray-500 mt-2">980-888-0080</p>
+              <p className="text-xs sm:text-sm text-gray-500 mt-2">+1 980-283-0411 / +91 635-313-6365</p>
             </a>
           </div>
 

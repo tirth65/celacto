@@ -149,22 +149,16 @@ const Home = () => {
               <div>
                 <dt className="text-slate-400">Headquarters</dt>
                 <dd className="text-lg font-semibold text-primary-200">
-                  NC,USA
+                  INDIA
                 </dd>
               </div>
               <div>
                 <dt className="text-slate-400">Years of experience</dt>
                 <dd className="text-lg font-semibold text-primary-200">
-                  20+
+                  2+
                 </dd>
               </div>
-              <div>
-                <dt className="text-slate-400">Pharmacies</dt>
-                <dd className="text-lg font-semibold text-primary-200">
-                  2
-                </dd>
-              </div>
-              <div>
+              <div className="col-span-2 text-center">
                 <dt className="text-slate-400">On‑time deliveries</dt>
                 <dd className="text-lg font-semibold text-primary-200">
                   99.5%
